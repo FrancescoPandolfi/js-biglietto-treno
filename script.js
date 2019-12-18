@@ -24,3 +24,7 @@ if (passengerAge < 18) {
 console.log("Numero Km = " + numKm + " Km");
 console.log("Età passeggero = " + passengerAge + " anni");
 console.log("prezzo totale = " + totPrice + " €");
+
+document.getElementById('numofkm').innerHTML = numKm;
+document.getElementById('agepass').innerHTML = passengerAge;
+document.getElementById('price').innerHTML = totPrice;
