@@ -19,19 +19,8 @@ if (passengerAge < 18) {
 } else if (passengerAge >= 65){
   // Se è over 65 compreso lo sconto è del 40%
   totPrice = (totPrice - (totPrice * 0.4)).toFixed(2);
-} else {
-  // Altrimenti nessuno sconto
 }
-console.log("prezzo totale = " + totPrice);
 
-
-
-// document.getElementById('price').innerHTML = "10";
-// document.getElementById('price').innerHTML = totPriceUnder18;
-
-// document.getElementById('numofkm').innerHTML = numKm;
-// document.getElementById('agepass').innerHTML = passengerAge;
-
-// Sulla base di queste informazioni dovrà calcolare il prezzo totale del viaggio.
-
-// Il prezzo del biglietto è definito in base ai km (0.21 € al km), ma va applicato uno sconto del 20% per i minorenni e del 40% per gli over 65.
+console.log("Numero Km = " + numKm + " Km");
+console.log("Età passeggero = " + passengerAge + " anni");
+console.log("prezzo totale = " + totPrice + " €");
