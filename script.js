@@ -17,14 +17,17 @@ if (passengerAge < 18) {
   // Se è minorenne lo sconto è del 20%
   totPrice = (totPrice - (totPrice * 0.2)).toFixed(2);
 } else if (passengerAge >= 65){
-  // Se è over 65 compreso lo sconto è del 40%
+  // Se è over 65  lo sconto è del 40%
   totPrice = (totPrice - (totPrice * 0.4)).toFixed(2);
 }
-
-console.log("Numero Km = " + numKm + " Km");
-console.log("Età passeggero = " + passengerAge + " anni");
-console.log("prezzo totale = " + totPrice + " €");
 
 document.getElementById('numofkm').innerHTML = numKm;
 document.getElementById('agepass').innerHTML = passengerAge;
 document.getElementById('price').innerHTML = totPrice;
+
+
+
+
+// console.log("Numero Km = " + numKm + " Km");
+// console.log("Età passeggero = " + passengerAge + " anni");
+// console.log("prezzo totale = " + totPrice + " €");
