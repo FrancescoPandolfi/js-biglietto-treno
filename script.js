@@ -9,7 +9,7 @@ var passengerAge = prompt("L'età del passeggero?");
 var price1Km = 0.21;
 
 // Definisco il prezzo totale
-var totPrice = numKm * 0.21;
+var totPrice = numKm * price1Km;
 
 
 // Condizione per determinare se ha diritto ad uno sconto
